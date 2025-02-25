@@ -12,18 +12,18 @@ body {
 }
 
 .header {
-    background-color: #333;
-    color: #fff;
+    background-color: #1C1C1E;
+    color: #F4F4F6;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px #6B42C9 (0, 0, 0, 0.2);
 }
 
 /* Estilo do Logo */
 .logo-code{
-    color: white;
+    color: #F4F4F6;
 }
 
 .logo-stack{
@@ -53,22 +53,85 @@ body {
 }
 
 .nav-links a:hover {
-    color: #00E6FF;
+    color: #1C1C1E;
+    background-color: #00E6FF;
+    background: linear-gradient(to right, #6B42C9, #00E6FF) ;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+
 }
 
-/* Estilos do Menu Mobile */
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
+.body {
+    background-color: #1C1C1E;
+
 }
 
-.menu-toggle .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 4px 0;
-    transition: all 0.3s ease;
+.titulo-principal{
+    color: #F4F4F6;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 40%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao-principal{
+    color: #F4F4F6;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 40%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias{
+    color: #F4F4F6;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 40%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.noticias article:hover {
+    background: linear-gradient(to right, #6B42C9, #00E6FF) ;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+}
+
+.imagem-noticia-curso{
+    width: 283px;
+    height: 178px;
+    object-fit: cover;
+}
+
+.imagem-noticia-python{
+    width: 283px;
+    height: 178px;
+    object-fit: cover;
+}
+
+.imagem-noticia-bootcamp{
+    width: 283px;
+    height: 178px;
+    object-fit: cover;
+}
+
+.imagem-noticia-ai{
+    width: 283px;
+    height: 178px;
+    object-fit: cover;
 }
 
 /* Responsividade */
@@ -98,3 +161,5 @@ body {
     width: 100%;
     z-index: 1000;
 }
+
+/* tamanho perfeito da imagem: 283 x 178 px*/
