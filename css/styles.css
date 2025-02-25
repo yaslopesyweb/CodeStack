@@ -24,6 +24,7 @@ body {
 /* Estilo do Logo */
 .logo-code{
     color: #F4F4F6;
+    margin-left: 50px;
 }
 
 .logo-stack{
@@ -34,21 +35,26 @@ body {
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
+
 }
 
 .nav-links li {
     margin-left: 1.5rem;
+    margin-right: 80px;
+
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
