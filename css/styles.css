@@ -31,6 +31,10 @@ body {
     color: #4A90E2
 }
 
+.logo-codestack{
+    cursor: pointer;
+}
+
 /* Estilos da Navbar */
 .navbar {
     display: flex;
