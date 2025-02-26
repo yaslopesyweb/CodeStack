@@ -78,7 +78,7 @@ body {
 
 .titulo-principal{
     color: #F4F4F6;
-    margin-top: 200px;
+    margin-top: 20vh;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
@@ -90,8 +90,9 @@ body {
 
 .descricao-principal{
     color: #F4F4F6;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
     display: flex;
     height: 40%;
     gap: 30px;
@@ -101,17 +102,47 @@ body {
 
 .noticias{
     color: #F4F4F6;
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 100px auto auto auto;
     display: flex;
     height: 40%;
     gap: 30px;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    width: 90vw;
+    max-width: 90vw;
 
 }
 
+.noticias article{
+    justify-content: center;
+    justify-items: center;
+}
+
+.noticias article h2{
+    color: #F4F4F6;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.noticias article p{
+    color: #F4F4F6;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+article h2 a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+article h2 a:hover {
+    color: #F4F4F6;
+    text-decoration: none;
+}
 
 
 .noticias article:hover {
@@ -120,11 +151,7 @@ body {
     padding: 1rem 1rem;
 }
 
-.imagem-noticia-curso{
-    width: 283px;
-    height: 178px;
-    object-fit: cover;
-}
+
 
 .imagem-noticia-python{
     width: 283px;
@@ -170,6 +197,13 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
+}
+
+footer{
+    color: #F4F4F6;
+    text-align: center;
+    justify-content: center;
+    margin: 5vh 5vh 5vh 5vh;
 }
 
 /* tamanho perfeito da imagem: 283 x 178 px*/
