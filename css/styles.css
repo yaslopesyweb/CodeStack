@@ -207,3 +207,28 @@ footer{
 }
 
 /* tamanho perfeito da imagem: 283 x 178 px*/
+
+/*cursos.html*/
+.titulo-cursos{
+    color: #F4F4F6;
+    margin-top: 20vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 40%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao-cursos{
+    color: #F4F4F6;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    height: 40%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
