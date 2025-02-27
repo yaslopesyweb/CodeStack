@@ -35,6 +35,10 @@ body {
     cursor: pointer;
 }
 
+.logo{
+    text-decoration: none;
+}
+
 /* Estilos da Navbar */
 .navbar {
     display: flex;
@@ -89,7 +93,7 @@ body {
 }
 
 .descricao-principal{
-    color: #F4F4F6;
+    color: #d6dad6;
     margin-top: 5vh;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -127,7 +131,7 @@ body {
 }
 
 .noticias article p{
-    color: #F4F4F6;
+    color: #d6dad6;
     font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -200,7 +204,7 @@ article h2 a:hover {
 }
 
 footer{
-    color: #F4F4F6;
+    color: #d6dad6;
     text-align: center;
     justify-content: center;
     margin: 5vh 5vh 5vh 5vh;
@@ -222,7 +226,7 @@ footer{
 }
 
 .descricao-cursos{
-    color: #F4F4F6;
+    color: #d6dad6;
     margin-top: 5vh;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -231,4 +235,57 @@ footer{
     gap: 30px;
     justify-content: center;
     align-items: center;
+}
+
+.cursos h2{
+    color: #F4F4F6;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cursos p{
+    color: #d6dad6;
+    font-size: 1rem;
+    text-align: left;
+    justify-content: center;
+    margin: 5vh 20vh 5vh 20vh;   
+}
+
+.cursos img{
+    width: 750px;
+    height: 442px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50vh 0 50vh;
+    
+}
+
+article b{
+    color: #F4F4F6;
+    font-size: 1rem;
+    margin: 2vh 20vh 2vh 20vh;
+}
+
+article ul{
+    list-style-type: disc;
+    margin: 2vh 22vh 2vh 22vh;
+    color: #d6dad6;
+}
+
+article ol{
+    list-style-type: number;
+    margin: 2vh 22vh 2vh 22vh;
+    color: #d6dad6;
+}
+
+.cursos article h2 a {
+    color: #F4F4F6;
+    text-decoration: none;
+}
+
+.cursos article h2 a:hover {
+    color: #4A90E2;
+    text-decoration: none;
 }
