@@ -228,9 +228,7 @@ footer{
 
 .descricao-cursos{
     color: #d6dad6;
-    margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin: 2vh 20vh 2vh 20vh;
     display: flex;
     height: 40%;
     gap: 30px;
@@ -241,8 +239,8 @@ footer{
 .cursos h2{
     color: #F4F4F6;
     font-size: 1.5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     text-align: center;
 }
 
